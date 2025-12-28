@@ -1,0 +1,6 @@
+git init
+git remote add origin <remote_repository_URL>
+git checkout -b daily-code
+git add .
+git commit -m "Daily coding practice with recent changes"
+git push --set-upstream origin daily-code

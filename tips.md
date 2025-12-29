@@ -17,3 +17,9 @@ if __name__ == "__main__":
 - in loopin and condition:
 - continue: act as skip, just ignore that condition
 - break: stops the itration completely
+
+# Key learning from day 3: 29-12-2025
+- functions are important that show maturity of code and logic building
+- Prime logic:
+        - handle all posible condition, even numbers, special case for even prime no., 0 and 1
+        - if loop rotates until square-root of number we get to know is it prime or not, no need to itrate completely

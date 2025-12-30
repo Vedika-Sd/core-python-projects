@@ -23,3 +23,13 @@ if __name__ == "__main__":
 - Prime logic:
         - handle all posible condition, even numbers, special case for even prime no., 0 and 1
         - if loop rotates until square-root of number we get to know is it prime or not, no need to itrate completely
+
+# Key learning from day 4: 30-12-2025
+- abs(n) : this is absolute function in python, retruns always positive number
+
+- ### Armstrong logic
+- if there are 4 numbers then sum of every numbers 4th power it should equal to original number
+- if there are 3 numbers then sum of every numbers 3rd power it should equal to original number
+
+For this Firstly, store original n to any other varible, cause n will decrease while doing operations
+ check, total count of digits, then by using while loop, access each digit, then do calculation, iterate loop by // 10

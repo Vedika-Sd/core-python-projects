@@ -33,3 +33,10 @@ if __name__ == "__main__":
 
 For this Firstly, store original n to any other varible, cause n will decrease while doing operations
  check, total count of digits, then by using while loop, access each digit, then do calculation, iterate loop by // 10
+
+# Key learning from day 6: 1-1-26
+- ## WIsh You Very Very HAPPY New Year, 2026 will bring happiness and placment
+
+# Key learning from Day & : 02-01-202
+- self method in python is like this keyword
+- if not use self variable name will be limited only to the local variable and not accessed from others

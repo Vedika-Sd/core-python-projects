@@ -1,0 +1,5 @@
+Artificial Intelligence is becoming a part of everyday life. From recommendation systems to virtual 
+assistants, AI helps people make decisions faster and automate repetitive tasks. However, responsible 
+development is important. Developers must consider fairness, transparency, privacy, and accountability when 
+building AI systems.Ethical AI aims to create technology that benefits society while minimizing risks and 
+unintended consequences.

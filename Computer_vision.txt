@@ -1,0 +1,4 @@
+Computer Vision is an area of AI that allows machines to interpret and analyze visual information from 
+images and videos. Applications include facial recognition, object detection, medical image analysis, and 
+autonomous vehicles. Deep learning models, particularly convolutional 
+neural networks, have significantly improved the accuracy of computer vision systems over the last decade.

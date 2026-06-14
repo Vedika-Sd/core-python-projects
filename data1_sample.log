@@ -1,0 +1,14 @@
+2026-06-14 09:00:01 [INFO] Server started on port 8000
+2026-06-14 09:00:05 [INFO] Database connection established
+2026-06-14 09:01:12 [INFO] User login successful
+2026-06-14 09:02:33 [WARNING] High memory usage detected
+2026-06-14 09:03:01 [INFO] User login successful
+2026-06-14 09:04:15 [ERROR] Failed to connect to payment gateway
+2026-06-14 09:04:16 [ERROR] Failed to connect to payment gateway
+2026-06-14 09:05:00 [INFO] User login successful
+2026-06-14 09:06:22 [WARNING] High memory usage detected
+2026-06-14 09:07:45 [DEBUG] Cache hit ratio: 0.87
+2026-06-14 09:08:10 [ERROR] Failed to connect to payment gateway
+2026-06-14 09:09:00 [INFO] User logout
+This line is not in the expected format
+2026-06-14 09:10:30 [INFO] Scheduled backup completed

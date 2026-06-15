@@ -1,4 +1,4 @@
-# Core Python Projects
+# 🌀 Core Python Projects : 
 
 A collection of small, focused Python projects — each one built to go deep on a
 specific set of core language concepts, the way production code is written:
@@ -181,8 +181,20 @@ Prints the first 5 books with price and stock status, then saves all 20 to
 <img width="554" height="312" alt="image" src="https://github.com/user-attachments/assets/790195d2-e7ee-47c3-8e5d-c9682753273f" />
 
 ---
-### Fun Project: Dream Catcher — `tinkterDreamCatcher.py`
+### Fun Project: Dream Catcher — `DreamCatcher.py`
 
+A "just for fun" script — built with `matplotlib` and `numpy`. It draws a dream catcher, and asks *you* for your dreams — placing
+each one as text inside the web, using a collision-avoidance algorithm so they
+don't overlap, falling back to a golden-angle spiral layout if the circle gets
+crowded.
+Type in a few dreams, hit `done`, and watch them appear inside the web.
+```bash
+python DreamCatcher.py
+```
+
+**Output:**
+
+<img width="1364" height="646" alt="image" src="https://github.com/user-attachments/assets/7d23ce35-a0d4-4e56-9de3-4e3fcd3e9255" />
 
 ---
 ## Setup
@@ -196,22 +208,7 @@ pip install requests beautifulsoup4 matplotlib numpy
 
 ---
 
-## Bonus: Dream Catcher — `tinkterDreamCatcher.py`
-
-A "just for fun" script — built with `matplotlib` and `numpy` rather than
-`tkinter` (worth a rename to `dream_catcher.py` at some point to avoid the
-mismatch). It draws a dream catcher, and asks *you* for your dreams — placing
-each one as text inside the web, using a collision-avoidance algorithm so they
-don't overlap, falling back to a golden-angle spiral layout if the circle gets
-crowded.
-
-```bash
-python tinkterDreamCatcher.py
-```
-
-Type in a few dreams, hit `done`, and watch them appear inside the web.
-
-It's a small reminder that this repo isn't just about proving proficiency —
+> It's a small reminder that this repo isn't just about proving proficiency —
 it's about a genuine love for what Python lets you build, from log parsers to
 dream catchers. Every project above started as "let me see if I can build
 this," and that curiosity is the thing worth carrying into whatever comes

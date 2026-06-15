@@ -4,8 +4,7 @@ A collection of small, focused Python projects — each one built to go deep on 
 specific set of core language concepts, the way production code is written:
 typed, error-handled, and runnable from the command line.
 
-This isn't a "100 Python exercises" repo. Each project is intentionally small
-enough to read end-to-end in a few minutes, but every line earns its place —
+This isn't a "100 Python exercises" repo. Each project is developed by myself to learn and implemnt python concepts properly. Every line earns its place,
 no boilerplate, no unused imports, no half-finished functions.
 
 > *"Beautiful is better than ugly. Explicit is better than implicit. Simple is
@@ -26,7 +25,7 @@ counts, the time range covered, and the top recurring messages.
   memory footprint.
 - **Decorators** — `@timer` wraps `analyse()` and reports how long it took,
   using `functools.wraps` so the wrapped function keeps its original name and
-  docstring (a detail most quick decorators skip).
+  docstring.
 - **Named regex groups** — `(?P<level>\w+)` lets the code read `match["level"]`
   instead of `match.group(2)`, which stays readable even if the pattern grows.
 - **`Counter.most_common()`** — aggregates severity levels and repeated
@@ -38,13 +37,14 @@ python 01_log_analyzer.py data1_sample.log
 ```
 
 **Sample output:**
+
 <img width="554" height="312" alt="image" src="https://github.com/user-attachments/assets/f9957d18-5c7d-43fb-84eb-7190217e478b" />
 
 ---
 
 ### 2. CSV Data Analyzer — `02_csv_data_Analyzer.py`
 
-Reads a CSV and computes summary statistics — **without pandas or numpy** —
+Reads a CSV and computes summary statistics **without pandas or numpy** —
 to show the statistics actually understood, not just imported.
 
 **Why it's interesting:**
@@ -68,6 +68,7 @@ python 02_csv_data_Analyzer.py data2_customer_spending.csv
 ```
 
 **Sample output:**
+
 <img width="554" height="312" alt="image" src="https://github.com/user-attachments/assets/30d83f89-ae29-4515-9d56-3d5fcc7e9a7a" />
 
 ---
@@ -106,13 +107,10 @@ between accounts, and view statements. Try withdrawing below the ₹1,000
 minimum on a savings account, or beyond the ₹5,000 overdraft on a current
 account, to see `InsufficientFundsError` caught and reported cleanly.
 
-> **Note:** the current file also has a short block of test code (opening a
-> "Veda" / "Friend" account and testing both exception cases) sitting at module
-> level, between `main()` and the `if __name__ == "__main__":` guard. It runs
-> automatically every time the script starts, before the menu appears. Moving
-> this into a `tests/test_bank.py` (or behind its own `if __name__ ==` guard)
-> would make the CLI experience cleaner — currently a reviewer running the
-> script sees the test output first.
+**Sample Output:** 
+
+<img width="554" height="312" alt="image" src="https://github.com/user-attachments/assets/adb78f05-1bf9-4dc5-be19-0ddc964af85d" />
+
 
 ---
 
@@ -142,6 +140,10 @@ python 04_text_file_search_Engine.py .
 This indexes `data3_AI_Ethics.txt` in the repo root. Try searching for terms
 like `ethics regulation` or `data privacy` and you'll see the file and its
 match score.
+
+**Sample Output:**
+
+<img width="554" height="312" alt="image" src="https://github.com/user-attachments/assets/dc7af0f7-10fd-4307-ae54-fa51569a0b81" />
 
 ---
 
@@ -174,30 +176,15 @@ python 05_web_scrapper.py
 Prints the first 5 books with price and stock status, then saves all 20 to
 `report.json`.
 
----
+**Sample Output:**
 
-## Concepts covered, at a glance
-
-| Concept                              | Where it shows up        |
-|---------------------------------------|---------------------------|
-| Generators (`yield`)                  | 01                         |
-| Decorators (`functools.wraps`)        | 01                         |
-| Regex with named groups               | 01, 04                     |
-| `Counter` / `defaultdict`             | 01, 02, 04                 |
-| `for...else`                          | 02                         |
-| `dataclasses` + `asdict`              | 03, 05                     |
-| ABC / `@abstractmethod`               | 03                         |
-| Polymorphism                          | 03                         |
-| Custom exception hierarchies          | 03                         |
-| Encapsulation (private attrs/props)   | 03                         |
-| `pathlib`                              | 01, 02, 04                 |
-| Type hints (PEP 585 generics)         | all                        |
-| CLI design (argv with `input()` fallback) | all                    |
-| `requests` + BeautifulSoup            | 05                         |
-| JSON serialization                    | 05                         |
+<img width="554" height="312" alt="image" src="https://github.com/user-attachments/assets/790195d2-e7ee-47c3-8e5d-c9682753273f" />
 
 ---
+### Fun Project: Dream Catcher — `tinkterDreamCatcher.py`
 
+
+---
 ## Setup
 
 All projects use **Python 3.10+** and the standard library, except the web
